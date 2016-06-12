@@ -29,7 +29,7 @@ public class UploadObjectSingleOperation {
             Long start = System.currentTimeMillis();
             s3client.putObject(new PutObjectRequest(bucketName, keyName, file));
             Long end = System.currentTimeMillis();
-            System.out.println("上传成功，耗时: " + (end - start) + "毫秒");
+            System.out.println("涓婁紶鎴愬姛锛岃�楁椂: " + (end - start) + "姣");
 
          } catch (AmazonServiceException ase) {
             System.out.println("Caught an AmazonServiceException, which " +

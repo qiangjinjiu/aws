@@ -17,7 +17,7 @@ public class UploadObjectMultipartUploadUsingHighLevelAPI {
         String existingBucketName = "km-dp-slide";
         String keyName            = "KM13-000373_HE_1_KM130378.ndpi";
         //String filePath           = "e:/KM14-000174_HE_2_KM140169.ndpi";  
-        String filePath ="e:/jdk-7u80-windows-x64.exe";
+        String filePath ="e:/BucketExplorer64.exe";
         
         AmazonS3 s3client = new AmazonS3Client(new ProfileCredentialsProvider());
         String regionName = "cn-north-1";
